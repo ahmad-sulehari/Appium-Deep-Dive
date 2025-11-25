@@ -1,6 +1,11 @@
 # Required: The version of the configuration file.
 version: 2
 
+# Explicitly set the builder to MkDocs
+formats: []
+mkdocs:
+  configuration: mkdocs.yml
+
 # Build environment configuration
 build:
   # The documentation format used (MkDocs)
@@ -10,8 +15,6 @@ build:
     python: "3.11"
   
 # Configuration for the build process
-# We need to install MkDocs and the Material theme
-formats: []
 python:
   install:
     - requirements: requirements.txt
