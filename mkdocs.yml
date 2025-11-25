@@ -1,0 +1,28 @@
+site_name: Appium Setup Guide for Beginners
+site_author: [ahmad-sulehari]
+
+# Use the Material Theme
+theme:
+  name: material
+
+# ... (site_name and theme settings remain the same)
+
+nav:
+  - 🏠 Home: index.md
+  
+  # The Setup Guide (Your Initial Project)
+  - ⚙️ Beginner Setup Guide:
+    - Introduction: setup/index.md
+    - 1. Prerequisites: setup/prerequisites.md
+    - 2. Android Setup: setup/android-setup.md
+    - 3. iOS Setup: setup/ios-setup.md
+  
+  # Future Section: Tips and Tricks
+  - ✨ Tips & Advanced Topics:
+    - Overview: tips/index.md
+    - Locator Strategies: tips/fast-locators.md
+    - Waiting & Synchronization: tips/waiting-strategies.md
+    
+  # Future Section: Troubleshooting
+  - 🚨 Troubleshooting Guide:
+    - Connection Errors: troubleshooting/connection-errors.md
