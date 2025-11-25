@@ -1,0 +1,3 @@
+# requirements.txt
+mkdocs==1.5.3  # Specify the version of MkDocs you tested with
+mkdocs-material==9.5.17 # Specify the version of the theme you are using

@@ -1,0 +1,20 @@
+# Required: The version of the configuration file.
+version: 2
+
+# Build environment configuration
+build:
+  # The documentation format used (MkDocs)
+  os: ubuntu-latest
+  tools:
+    # Use the specific version of Python you are using (3.11 is a safe, modern default)
+    python: "3.11"
+  
+# Configuration for the build process
+# We need to install MkDocs and the Material theme
+formats: []
+python:
+  install:
+    - requirements: requirements.txt
+
+# Specify the directory where your MkDocs configuration file (mkdocs.yml) is located
+# Since it's at the root of your repo, we don't need to specify a path here.
